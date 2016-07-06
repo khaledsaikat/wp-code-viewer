@@ -1,0 +1,19 @@
+{
+    "name": "khaledsaikat/wp-code-viewer",
+    "description": "Remote code viewer usign GeSHi syntax highlighter",
+    "keywords": ["wordpress", "plugin"],
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Khaled Hossain"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CodeViewer\\": "models/"
+        }
+    },
+    "require": {
+        "easybook/geshi": "v1.0.8.17"
+    }
+}
